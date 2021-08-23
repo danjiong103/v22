@@ -1,19 +1,19 @@
-# v2ray-heroku
+# v2hk LVESS
 
 > 遇到问题，请开 issue/discussions。
 
 > 切换到最新的 VLESS 协议。具体客户端配置请看 config 章节。
 
-> v2ray-heroku 是我的主力 backup，我会日常维护它。加入或者修改一些我认为好的配置。但这一般会导致客户端配置需要些许修改。 不过具体配置都会体现在 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置)
+> v2hk 是我的主力 backup，我会日常维护它。加入或者修改一些我认为好的配置。但这一般会导致客户端配置需要些许修改。 不过具体配置都会体现在 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置)
 
-首先查看别人的 [youtube 教程](https://www.youtube.com/watch?v=xHZyDsFYdvA)，了解怎么配置 v2ray-heroku。**本项目使用最新 VLESS 协议，请在客户端配置选择 VLESS**。  
+首先查看别人的 [youtube 教程](https://www.youtube.com/watch?v=xHZyDsFYdvA)，了解怎么配置 v2hk。**本项目使用最新 VLESS 协议，请在客户端配置选择 VLESS**。  
 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置) 。
 
 如果你还想自动化你的 heroku，请查看下面的教程。
 
 本项目是包含，
 
-- 一键部署 V2ray 到 heroku。
+- 一键部署 V2 到 hk。
 - 利用 Github action 实现 重新部署/停止/启动。
 - 利用 cloudflare CDN 进行加速。
 
@@ -26,7 +26,7 @@
 
 ## 一键部署
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/zizifn/v2ray-heroku/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/danjiong103/v2hklv/tree/main)
 
 ## Github Actions 管理
 
